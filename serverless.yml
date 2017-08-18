@@ -1,0 +1,20 @@
+service: __YOUR_SERVICE_NAME_HERE__
+
+# Check if these work for you / are up to date
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+plugins:
+  - serverless-webpack
+
+functions:
+  app:
+    handler: handler.default
+    events:
+      - http:
+          path: /
+          method: ANY
+      - http:
+          path: /{proxy+}
+          method: ANY

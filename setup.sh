@@ -16,3 +16,4 @@ npm i \
   webpack \
 
 rm setup.sh
+rm -rf .git

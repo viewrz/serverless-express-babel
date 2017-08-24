@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd "$(dirname "$0")"
+
 npm i \
   aws-serverless-express \
   babel-core \
@@ -17,3 +19,4 @@ npm i \
 
 rm setup.sh
 rm -rf .git
+echo '# __YOUR_SERVICE_NAME_HERE__' > README.md

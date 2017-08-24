@@ -2,8 +2,7 @@
 
 cd "$(dirname "$0")"
 
-npm i \
-  aws-serverless-express \
+npm i --save-dev \
   babel-core \
   babel-loader \
   babel-preset-env \
@@ -11,10 +10,14 @@ npm i \
   eslint \
   eslint-config-airbnb-base \
   eslint-plugin-import \
-  express \
   js-yaml \
   serverless-webpack \
   webpack \
+  webpack-node-externals \
+
+npm i --save \
+  express \
+  aws-serverless-express \
 
 rm setup.sh
 rm -rf .git

@@ -1,5 +1,8 @@
 service: __YOUR_SERVICE_NAME_HERE__
 
+custom:
+  webpackIncludeModules: true
+
 # Check if these work for you / are up to date
 provider:
   name: aws
@@ -7,6 +10,9 @@ provider:
 
 plugins:
   - serverless-webpack
+
+package:
+  individually: true
 
 functions:
   app:

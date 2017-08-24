@@ -7,7 +7,6 @@ npm i \
   babel-core \
   babel-loader \
   babel-preset-env \
-  babel-register \
   babel-watch \
   eslint \
   eslint-config-airbnb-base \

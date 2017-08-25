@@ -2,7 +2,7 @@
   "name": "__YOUR_SERVICE_NAME_HERE__",
   "version": "1.0.0",
   "scripts": {
-    "start": "babel-watch local-dev-server.js"
+    "start": "node local-run.js"
   },
   "private": true
 }

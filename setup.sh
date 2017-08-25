@@ -14,6 +14,7 @@ npm i --save-dev \
   serverless-webpack \
   webpack \
   webpack-node-externals \
+  source-map-support \
 
 npm i --save \
   express \

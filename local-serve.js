@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import 'source-map-support/register';
 import app from './app';
 
 // eslint-disable-next-line no-console

@@ -7,6 +7,7 @@ const { join } = require('path');
 const { spawn } = require('child_process');
 
 config.entry = './local-serve.js';
+config.devtool = 'source-map';
 config.output = {
   path: join(__dirname, '.webpack', 'local'),
   filename: 'serve.js',
